@@ -1,1 +1,16 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --cor0: #FF3333;
+    --cor1: #282828;
+
+    --font-padrao: "Open Sans", sans-serif;
+}
+
+/* Configurações Globais */
+* {
+    padding: 0px;
+    margin: 0px;
+}
