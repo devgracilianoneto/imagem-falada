@@ -1,61 +1,14 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imagem Falada</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-</head>
-<body>
-     <!-- Cabeçalho -->
-    <header>
-        <div class="logo"><img src="images/logo.png" alt="Logo Imagem Falada"></div>
-        <nav>
-            <ul>
-                <li><a href="#">Acessibilidade</a></li>
-                <li><a href="#">Ajuda</a></li>
-            </ul>
-        </nav>
-        <div>
-            <input type="text" name="search" id="isearch" placeholder="o que você está procurando?">
-            <button>
-                <span class="material-symbols-outlined">search</span>
-            </button>
-        </div>
-        <div class="auth-buttons">
-            <a href="#">Iniciar sessão </a>
-            <a href="#" class="register">Registar-se</a>
-        </div>
-    </header>
-
-    <main>
-        <!-- Área de upload -->
-        <section class="upload-area">
-            <div class="upload-box">
-                <button>Selecionar arquivos</button>
-            </div>
-
-            <div>
-                <button>Baixar texto</button>
-                <button>Copiar texto</button>
-                <button>Ouvir texto</button>
-                <button>Selecionar nova imagem</button>
-            </div>
-        </section>
-
-        <section>
-
-        </section>
-
-        <section>
-            
-        </section>
-
-    </main>
-
-    <footer>
-
-    </footer>
-</body>
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imagem Falada - Acessibilidade para Estudantes</title>
+    <meta name="description" content="Ferramenta de acessibilidade que converte texto em imagens para áudio, ajudando estudantes com necessidades especiais." />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
